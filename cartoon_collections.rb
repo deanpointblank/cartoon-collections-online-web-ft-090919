@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)# code an argument here
   # Your code here
   names.collect do |name|
-    puts name
+    puts "#{names(name)}. #{name}"
   end
 end
 
